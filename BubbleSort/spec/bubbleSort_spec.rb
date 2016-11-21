@@ -19,7 +19,7 @@ RSpec.describe 'bubbleSort.rb' do
     it 'get correct result' do
       expect(bubbleSort([1, 2, 1])).to match([1,1,2])
     end
-    it 'SortEmptyList' do
+    it 'sort empty list' do
       expect(bubbleSort([])).to match([])
     end
     it 'sort one element' do
